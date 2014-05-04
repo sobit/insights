@@ -2,6 +2,7 @@
     "name": "sobit/insights",
     "description": "Convenient interface for using New Relic Insights",
     "keywords": ["new relic", "insights"],
+    "homepage": "https://github.com/sobit/insights",
     "license": "MIT",
     "authors": [
         {
