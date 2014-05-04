@@ -33,7 +33,7 @@ class MyEvent extends \Sobit\Insights\AbstractEvent
 Populate this class with attributes you want to be submitted to Insights:
 
 ``` php
-class MyEvent extends \Sobit\Insights\AbstractEvent
+class MyEvent extends Sobit\Insights\AbstractEvent
 {
     private $myAttribute;
     
@@ -61,16 +61,22 @@ $insertKey = 'YOUR INSERT KEY';
 $queryKey  = 'YOUR QUERY KEY';
 
 // initialize core classes
-$client       = new Client(new \GuzzleHttp\Client(), $accountId, $insertKey, $queryKey);
-$eventManager = new EventManager($client, \JMS\Serializer\SerializerBuilder::create()->build());
+$client       = new Client(new GuzzleHttp\Client(), $accountId, $insertKey, $queryKey);
+$eventManager = new EventManager($client, JMS\Serializer\SerializerBuilder::create()->build());
 
 // create your event
-$event = new \MyEvent('some attribute');
+$event = new MyEvent('some attribute');
 
 // submit event to Insights
 $eventManager->persist($event);
 $eventManager->flush();
 ```
+
+## To do
+
+1. NRQL query builder
+2. Improve documentation
+3. Cover functionality with unit tests
 
 ## License
 
