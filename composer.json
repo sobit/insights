@@ -1,0 +1,17 @@
+{
+    "name": "sobit/insights",
+    "description": "Convenient interface for using New Relic Insights",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sobit",
+            "email": "sobit.akhmedov@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+}
