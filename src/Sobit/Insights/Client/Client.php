@@ -50,7 +50,7 @@ class Client implements ClientInterface
      */
     public function insert($json)
     {
-        $url     = "https://insights.newrelic.com/beta_api/accounts/{$this->accountId}/events";
+        $url     = "https://insights-collector.newrelic.com/v1/accounts/{$this->accountId}/events";
         $options = [
             'body'    => $json,
             'headers' => ['X-Insert-Key' => $this->insertKey, 'Content-Type' => 'application/json'],
@@ -64,7 +64,7 @@ class Client implements ClientInterface
      */
     public function query($nrql)
     {
-        $url     = "https://insights.newrelic.com/beta_api/accounts/{$this->accountId}/query";
+        $url     = "https://insights-collector.newrelic.com/v1/accounts/{$this->accountId}/query";
         $options = [
             'query'   => ['nrql' => $nrql],
             'headers' => ['X-Query-Key' => $this->queryKey, 'Accept' => 'application/json'],
