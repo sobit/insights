@@ -1,5 +1,7 @@
 # Insights
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a7d40379-9a88-4a5e-86db-cbf4a37af710/mini.png)](https://insight.sensiolabs.com/projects/a7d40379-9a88-4a5e-86db-cbf4a37af710)
+
 Convenient interface for using New Relic Insights.
 
 ## Install
