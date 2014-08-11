@@ -1,6 +1,6 @@
 # Insights
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a7d40379-9a88-4a5e-86db-cbf4a37af710/mini.png)](https://insight.sensiolabs.com/projects/a7d40379-9a88-4a5e-86db-cbf4a37af710)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/12b06029-7972-4a0e-95b4-c08329fc77e7/mini.png)](https://insight.sensiolabs.com/projects/12b06029-7972-4a0e-95b4-c08329fc77e7)
 
 Convenient interface for using New Relic Insights.
 
